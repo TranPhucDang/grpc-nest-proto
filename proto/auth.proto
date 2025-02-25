@@ -50,4 +50,8 @@ message ValidateResponse {
   int32 status = 1;
   repeated string error = 2;
   int32 userId = 3;
+  string role = 4;
+  bool verified = 5;
+  google.protobuf.Timestamp createdAt = 6;
+  google.protobuf.Timestamp updatedAt = 7;
 }
